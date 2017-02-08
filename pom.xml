@@ -6,6 +6,25 @@
     <groupId>com.bclaus</groupId>
     <artifactId>searchui</artifactId>
     <version>0.1-SNAPSHOT</version>
-
+    <properties>
+        <!-- Project properties -->
+    </properties>
+    <dependencies>
+        <!-- Project dependencies -->
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
+                <configuration>
+                    <!-- The default is Java 1.5 ... -->
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
